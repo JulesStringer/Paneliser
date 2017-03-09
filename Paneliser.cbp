@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Paneliser" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Paneliser" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Paneliser" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Board.cpp" />
+		<Unit filename="Board.h" />
+		<Unit filename="BoardSection.cpp" />
+		<Unit filename="BoardSection.h" />
+		<Unit filename="Connect.h" />
+		<Unit filename="FootprintSection.cpp" />
+		<Unit filename="FootprintSection.h" />
+		<Unit filename="Net.h" />
+		<Unit filename="NetSection.cpp" />
+		<Unit filename="NetSection.h" />
+		<Unit filename="OptionsSection.cpp" />
+		<Unit filename="OptionsSection.h" />
+		<Unit filename="Paneliser.cpp" />
+		<Unit filename="PartsSection.cpp" />
+		<Unit filename="PartsSection.h" />
+		<Unit filename="Pin.h" />
+		<Unit filename="Process.cpp" />
+		<Unit filename="Process.h" />
+		<Unit filename="Section.cpp" />
+		<Unit filename="Section.h" />
+		<Unit filename="Text.cpp" />
+		<Unit filename="Text.h" />
+		<Unit filename="TextSection.cpp" />
+		<Unit filename="TextSection.h" />
+		<Unit filename="Vertex.h" />
+		<Unit filename="area.h" />
+		<Unit filename="connect.cpp" />
+		<Unit filename="corner.cpp" />
+		<Unit filename="corner.h" />
+		<Unit filename="makefile.mak" />
+		<Unit filename="net.cpp" />
+		<Unit filename="part.cpp" />
+		<Unit filename="part.h" />
+		<Unit filename="pin.cpp" />
+		<Unit filename="vertex.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

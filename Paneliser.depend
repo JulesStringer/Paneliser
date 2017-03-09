@@ -1,0 +1,237 @@
+# depslib dependency file v1.0
+1441578426 source:c:\dev\paneliser\board.cpp
+	"Board.h"
+	"Section.h"
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdio.h>
+	<errno.h>
+	<string.h>
+	"FootprintSection.h"
+	"PartsSection.h"
+	"NetSection.h"
+	"TextSection.h"
+	"Process.h"
+
+1438541896 c:\dev\paneliser\board.h
+	<string>
+	<map>
+
+1425153875 c:\dev\paneliser\section.h
+	<vector>
+	<string>
+
+1425153912 c:\dev\paneliser\footprintsection.h
+	"section.h"
+	<map>
+
+1464559500 c:\dev\paneliser\partssection.h
+	"section.h"
+	<map>
+
+1438542920 c:\dev\paneliser\netsection.h
+	"Section.h"
+
+1425252874 c:\dev\paneliser\textsection.h
+	"section.h"
+	<vector>
+
+1438537298 c:\dev\paneliser\process.h
+	<vector>
+	<string>
+
+1438541976 source:c:\dev\paneliser\boardsection.cpp
+	"BoardSection.h"
+	"Board.h"
+	<strings.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdio.h>
+
+1438541896 c:\dev\paneliser\boardsection.h
+	"Section.h"
+
+1438550681 source:c:\dev\paneliser\connect.cpp
+	"connect.h"
+	"vertex.h"
+	"area.h"
+	<strings.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdio.h>
+
+1438550043 c:\dev\paneliser\connect.h
+	<string>
+	<vector>
+
+1425243128 c:\dev\paneliser\vertex.h
+	<string>
+
+1464559864 c:\dev\paneliser\area.h
+	<string>
+	<vector>
+
+1425249844 source:c:\dev\paneliser\corner.cpp
+	"corner.h"
+	<strings.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdio.h>
+
+1425249844 c:\dev\paneliser\corner.h
+	<string>
+
+1425154998 source:c:\dev\paneliser\footprintsection.cpp
+	"FootprintSection.h"
+	<strings.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdio.h>
+
+1438550801 source:c:\dev\paneliser\net.cpp
+	"Net.h"
+	"Pin.h"
+	"Connect.h"
+	"Area.h"
+	"part.h"
+	"PartsSection.h"
+	"NetSection.h"
+	"Process.h"
+	<strings.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdio.h>
+
+1438549975 c:\dev\paneliser\net.h
+	<string>
+	<vector>
+
+1438546331 c:\dev\paneliser\pin.h
+	<string>
+
+1464561127 c:\dev\paneliser\part.h
+	<string>
+	<vector>
+
+1438543018 source:c:\dev\paneliser\netsection.cpp
+	"NetSection.h"
+	"Net.h"
+	"PartsSection.h"
+	"Process.h"
+	<strings.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdio.h>
+
+1425154820 source:c:\dev\paneliser\optionssection.cpp
+	"optionssection.h"
+	<strings.h>
+
+1425154820 c:\dev\paneliser\optionssection.h
+	"section.h"
+
+1425145855 source:c:\dev\paneliser\paneliser.cpp
+	"Process.h"
+
+1464561104 source:c:\dev\paneliser\part.cpp
+	"part.h"
+	<strings.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdio.h>
+
+1464561089 source:c:\dev\paneliser\partssection.cpp
+	"PartsSection.h"
+	"part.h"
+	<strings.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdio.h>
+
+1438546331 source:c:\dev\paneliser\pin.cpp
+	"pin.h"
+	<strings.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdio.h>
+
+1425251745 source:c:\dev\paneliser\section.cpp
+	"Section.h"
+	"OptionsSection.h"
+	"FootprintSection.h"
+	"BoardSection.h"
+	"PartsSection.h"
+	"NetSection.h"
+	"TextSection.h"
+	<strings.h>
+	<stdio.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1441485575 source:c:\dev\paneliser\text.cpp
+	"Text.h"
+	<strings.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdio.h>
+
+1441485130 c:\dev\paneliser\text.h
+	<string>
+
+1441577377 source:c:\dev\paneliser\textsection.cpp
+	"TextSection.h"
+	"Text.h"
+	<strings.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdio.h>
+
+1425252160 source:c:\dev\paneliser\vertex.cpp
+	"vertex.h"
+	<strings.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdio.h>
+
+1438547713 source:c:\dev\paneliser\area.cpp
+	"area.h"
+	"corner.h"
+	<strings.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdio.h>
+
+1471291531 source:c:\dev\paneliser\process.cpp
+	"Process.h"
+	<sys/types.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<strings.h>
+	<string>
+	<sys/stat.h>
+	<fcntl.h>
+	<stdlib.h>
+	"board.h"
+	"section.h"
+	"optionssection.h"
+	"footprintsection.h"
+	"boardsection.h"
+	"partssection.h"
+	"netsection.h"
+	"textsection.h"
+
